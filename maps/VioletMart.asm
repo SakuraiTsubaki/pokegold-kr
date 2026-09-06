@@ -24,7 +24,6 @@ VioletMartGrannyText:
 	text "잡은지 얼마 안 되었어도"
 	line "약한 포켓몬도 키우면"
 	cont "언젠가 강해질 것입니다"
-
 	para "중요한 것은 포켓몬에 대한"
 	line "애정이라고 생각합니다"
 	done

@@ -113,14 +113,11 @@ VioletGymStatue:
 FalknerIntroText:
 	text "내가 도라지시티 포켓몬 체육관"
 	line "관장인 비상이다!"
-
 	para "세간에서는"
 	line "비행타입의 포켓몬같은 것은"
 	cont "전기 충격에 한방이라고……"
-
 	para "그렇게 새포켓몬을 바보취급한다"
 	line "나는 그것을 용서 못 한다"
-
 	para "넓은 하늘을 화려하게 나는"
 	line "새포켓몬의 진정 강함을"
 	cont "알게 해주겠다!"
@@ -130,10 +127,8 @@ FalknerWinLossText:
 	text "……젠장"
 	line "아버지가 소중하게 여기던"
 	cont "포켓몬이……"
-
 	para "알겠다"
 	line "이것을 가지고 가거라!"
-
 	para "포켓몬 리그 공인"
 	line "윙배지다!"
 	done
@@ -147,12 +142,10 @@ FalknerZephyrBadgeText:
 	text "윙배지를 지니고 있으면"
 	line "너의 포켓몬"
 	cont "공격력이 올라간다!"
-
 	para "그리고 플래시라고 하는"
 	line "기술을 배운 포켓몬은"
 	cont "싸우고 있지 않을 때에도"
 	cont "플래시를 쓸 수 있다!"
-
 	para "그리고 이것도 가지고 가라"
 	done
 
@@ -160,16 +153,12 @@ FalknerTMMudSlapText:
 	text "기술머신을 사용하면"
 	line "단숨에 포켓몬에게"
 	cont "기술을 가르칠 수 있다!"
-
 	para "그러나 1회용이기때문에"
 	line "잘 생각해서 써야할꺼야"
-
 	para "덧붙여서 기술머신31의 안에는"
 	line "진흙 뿌리기가 들어있다"
-
 	para "상대의 명중력을 떨어뜨리면서"
 	line "데미지를 준단다"
-
 	para "다시 말해서 공격과 방어가"
 	line "동시에 되는 기술이다"
 	done
@@ -178,7 +167,6 @@ FalknerFightDoneText:
 	text "이 앞에는 여러마을에"
 	line "포켓몬 체육관이 있으니까"
 	cont "거기서 실력을 겨루어보면 좋을꺼다"
-
 	para "나는최강의"
 	line "새 조련사가 되기위하여"
 	cont "포켓몬과 내 자신을 단련시키겠어!"
@@ -186,11 +174,9 @@ FalknerFightDoneText:
 
 BirdKeeperRodSeenText:
 	text "표어는 강한 근성"
-
 	para "이곳에 모여있는 인간은"
 	line "새포켓몬으로 최강을 목표로 하여"
 	cont "밤낮 없이 특훈을 하고있다!"
-
 	para "덤벼랏!"
 	done
 
@@ -201,7 +187,6 @@ BirdKeeperRodBeatenText:
 BirdKeeperRodAfterBattleText:
 	text "비상님의"
 	line "실력은 진짜다"
-
 	para "나를 이긴 것 정도로"
 	line "들뜨지말아라!"
 	done
@@ -224,14 +209,11 @@ VioletGymGuideText:
 	text "여어!"
 	line "나는 트레이너가 아니지만"
 	cont "어드바이스는 할 수 있지!"
-
 	para "믿음이야!"
 	line "믿는다면"
 	cont "챔피언도 꿈은 아니지!"
-
 	para "그래 들어주겠니?"
 	line "좋아!"
-
 	para "풀타입은 비행타입에"
 	line "대단히 상성이 나쁘단다"
 	cont "꼭 주의를 해야해!"

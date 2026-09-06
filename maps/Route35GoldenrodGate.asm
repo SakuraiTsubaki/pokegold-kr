@@ -90,7 +90,6 @@ Route35GoldenrodGatePokefanFScript:
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	text "이봐- 너 너!"
-
 	para "이 메일을 지니고 있는 포켓몬을"
 	line "31번 도로에 있는"
 	cont "친구에게 전해주었으면 좋겠어"
@@ -99,7 +98,6 @@ Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 
 Route35GoldenrodGateRandyThanksText:
 	text "고마워!"
-
 	para "친구는 뚱뚱한 남자아이고"
 	line "언제나 졸고 있으니까"
 	cont "바로 알아볼 수 있을꺼야!"
@@ -114,7 +112,6 @@ Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
 	text "메일을 읽어봐도 좋지만"
 	line "잃어버리지는 말아라!"
 	cont "31번 도로까지 부탁해!"
-
 	para "……참 그러고보니"
 	line "이상한 모양의 나무가"
 	cont "길을 막고있는 듯 한데"
@@ -145,7 +142,6 @@ Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
 Route35GoldenrodGatePokefanFText:
 	text "말을 걸면 꿈틀꿈틀 움직이는"
 	line "나무가 길을 막고 있단다"
-
 	para "꼬부기 물뿌리개로 물을 뿌리면"
 	line "화를 낸다는 이야기를 들었어"
 	done

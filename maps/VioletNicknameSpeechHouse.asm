@@ -26,7 +26,6 @@ VioletNicknameSpeechHouseBirdScript:
 VioletNicknameSpeechHouseTeacherText:
 	text "좋아하는 음식의 이름을"
 	line "붙이고 있단다"
-
 	para "우리 딸이 붙이고 있는 것은"
 	line "포켓몬의 별명이란다"
 	done

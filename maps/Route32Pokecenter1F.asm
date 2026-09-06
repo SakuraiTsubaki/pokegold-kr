@@ -47,7 +47,6 @@ Route32Pokecenter1FFishingGuruText_Question:
 	text "이 근처는 낚시의 명소란다"
 	line "모두가 낚고 있는 것을 보고"
 	cont "너도 낚시가 하고싶어지지?"
-
 	para "괜찮다면 내"
 	line "낚싯대를 나누어줄까?"
 	done
@@ -59,7 +58,6 @@ Route32Pokecenter1FFishingGuruText_Yes:
 
 Route32Pokecenter1FFishingGuruText_GiveOldRod:
 	text "낚시는 아주 좋아!"
-
 	para "물이 있는 곳이라면"
 	line "바다든지 강이든지"
 	cont "계속 낚싯대를 사용하거라! "
@@ -78,7 +76,6 @@ Route32Pokecenter1FFishingGuruText_After:
 Route32Pokecenter1FCooltrainerFText:
 	text "움- 포켓몬에게"
 	line "무엇을 지니게 할까 망설여진다"
-
 	para "공격력을 강하게 하는"
 	line "도구로 할까"
 	done

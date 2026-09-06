@@ -107,9 +107,7 @@ VioletPokecenterElmsAideFavorText:
 	text "<PLAYER>군 오래간만입니다"
 	line "공박사님께 부탁을 받아서"
 	cont "당신을 찾고 있었어요"
-
 	para "사실은……"
-
 	para "포켓몬 알을"
 	line "지니고 있어달라는 것입니다!"
 	done
@@ -119,15 +117,12 @@ VioletPokecenterElmsAideGiveEggText:
 	line "포켓몬은 알 안에서"
 	cont "어느정도 키우지 않으면"
 	cont "태어나지 않는다고 합니다!"
-
 	para "그것도 늘 활발한"
 	line "포켓몬 곁에 있지 않으면"
 	cont "안 된다는 것 같아요"
-
 	para "그러한 것을 부탁할 만한 사람은"
 	line "<PLAYER>군 뿐이니까"
 	cont "잘 부탁할께요!"
-
 	para "태어난다면 공박사님에게"
 	line "연락해주세요"
 	done
@@ -156,11 +151,9 @@ VioletPokecenter1FSuperNerdText:
 
 VioletPokecenter1FGentlemanText:
 	text "3년정도 전쯤의 이야기란다"
-
 	para "로켓단이라고 하는 녀석들이"
 	line "포켓몬을 사용해서"
 	cont "나쁜 짓만 했단다"
-
 	para "하지만 악은 망한다!"
 	line "어떤 소년의 활약으로"
 	cont "해산되었단다!"
@@ -170,7 +163,6 @@ VioletPokecenter1FYoungsterText:
 	text "포켓몬은 머리가 좋으니까"
 	line "존경할만한 트레이너가"
 	cont "말하는 것이 아니면 듣지 않아"
-
 	para "체육관 배지를 지니고 있지 않으면"
 	line "명령도 듣지않고 제멋대로란다"
 	done

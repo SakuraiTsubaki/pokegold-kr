@@ -20,7 +20,6 @@ Route32RuinsOfAlphGateYoungsterScript:
 Route32RuinsOfAlphGateOfficerText:
 	text "보고 만질 수 있는"
 	line "알프의 유적 관광!"
-
 	para "움직일 수 있는 돌 아래를"
 	line "꼭 손으로 만져봐 주세요"
 	done
