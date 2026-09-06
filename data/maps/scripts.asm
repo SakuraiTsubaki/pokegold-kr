@@ -322,7 +322,6 @@ INCLUDE "maps/Route34IlexForestGate.asm"
 INCLUDE "maps/DayCare.asm"
 
 
-/*
 SECTION "Map Scripts 23", ROMX
 
 INCLUDE "maps/VermilionFishingSpeechHouse.asm"
@@ -341,6 +340,7 @@ INCLUDE "maps/BluesHouse.asm"
 INCLUDE "maps/OaksLab.asm"
 
 
+/*
 SECTION "Map Scripts 24", ROMX
 
 INCLUDE "maps/PewterNidoranSpeechHouse.asm"
