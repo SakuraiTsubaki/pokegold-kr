@@ -282,7 +282,6 @@ INCLUDE "maps/KurtsHouse.asm"
 INCLUDE "maps/AzaleaGym.asm"
 
 
-/*
 SECTION "Map Scripts 21", ROMX
 
 INCLUDE "maps/VioletMart.asm"
@@ -299,6 +298,7 @@ INCLUDE "maps/Route36RuinsOfAlphGate.asm"
 INCLUDE "maps/Route36NationalParkGate.asm"
 
 
+/*
 SECTION "Map Scripts 22", ROMX
 
 INCLUDE "maps/GoldenrodGym.asm"
