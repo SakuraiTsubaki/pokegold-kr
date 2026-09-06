@@ -77,21 +77,17 @@ CharcoalKilnRadio:
 
 CharcoalKilnBossText1:
 	text "마을에서 야돈이 사라졌다"
-
 	para "움 숲의 신이"
 	line "분노하셨나……?"
-
 	para "무엇이건 좋지 않은 징조일지도"
 	line "이럴 때에는 가만히 있는게 좋아"
 	done
 
 CharcoalKilnBossText2:
 	text "야돈은 돌아왔는가……"
-
 	para "이번에는 견습하는 녀석이"
 	line "너도밤나무 숲에서 돌아오질 않아"
 	cont "언제까지 놀고 있는 것인가……"
-
 	para "나 참!"
 	line "할 수 없는 녀석이로군!"
 	done
@@ -99,7 +95,6 @@ CharcoalKilnBossText2:
 CharcoalKilnBossText3:
 	text "로켓단을 쫓아낸"
 	line "너도밤나무 숲도 겁없이 들어가다니"
-
 	para "너의 배짱 마음에 들었다"
 	line "어떤가! 나랑 함께"
 	cont "수행하지 않겠는가?"
@@ -113,7 +108,6 @@ CharcoalKilnApprenticeText1:
 CharcoalKilnApprenticeText2:
 	text "그러고보니"
 	line "너에게 답례를 하지 않았나?"
-
 	para "이것 내가 만든 숯이란다"
 	line "화염타입의 포켓몬에게"
 	cont "지니게 하면 기뻐할지도 몰라!"

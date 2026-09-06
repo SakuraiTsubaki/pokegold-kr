@@ -273,7 +273,6 @@ INCLUDE "maps/PowerPlant.asm"
 INCLUDE "maps/BillsHouse.asm"
 
 
-/*
 SECTION "Map Scripts 20", ROMX
 
 INCLUDE "maps/AzaleaPokecenter1F.asm"
@@ -283,6 +282,7 @@ INCLUDE "maps/KurtsHouse.asm"
 INCLUDE "maps/AzaleaGym.asm"
 
 
+/*
 SECTION "Map Scripts 21", ROMX
 
 INCLUDE "maps/VioletMart.asm"

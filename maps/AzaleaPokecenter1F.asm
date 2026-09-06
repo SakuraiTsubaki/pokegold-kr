@@ -28,7 +28,6 @@ AzaleaPokecenter1FPokefanFScript:
 AzaleaPokecenter1FGentlemanText:
 	text "너는 포켓몬 비전이라고 불리는"
 	line "기술을 알고 있을까"
-
 	para "포켓몬은 빈사상태라든지"
 	line "싸울 힘이 없을때만"
 	cont "비전은 사용할 수 있다고 한다"
@@ -42,14 +41,11 @@ AzaleaPokecenter1FFishingGuruText:
 
 AzaleaPokecenter1FPokefanFText:
 	text "너 규토리라는 것 알고 있니?"
-
 	para "규토리의 열매를 쪼개서"
 	line "내용물을 제거하면"
 	cont "특수한 장치를 만들어낸단다"
-
 	para "그럼 포켓몬을 잡는 것을"
 	line "할 수 있도록 된단다!"
-
 	para "몬스터볼이 팔릴 때까지"
 	line "모두 규토리를 사용해서"
 	cont "포켓몬을 잡았단다"
