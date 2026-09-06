@@ -1,0 +1,90 @@
+# Bank $5A / Map Scripts 24 assembler-order source index
+# total text labels: 48
+
+## maps/PewterNidoranSpeechHouse.asm (2 text labels)
+PewterNidoranSpeechHouseSuperNerdText
+PewterNidoranText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/PewterGym.asm (10 text labels)
+BrockIntroText
+BrockWinLossText
+ReceivedBoulderBadgeText
+BrockBoulderBadgeText
+BrockFightDoneText
+CamperJerrySeenText
+CamperJerryBeatenText
+CamperJerryAfterBattleText
+PewterGymGuideText
+PewterGymGuideWinText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/PewterMart.asm (2 text labels)
+PewterMartYoungsterText
+PewterMartSuperNerdText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/PewterPokecenter1F.asm (3 text labels)
+PewterPokecenter1FTeacherText
+PewterJigglypuffText
+PewterPokecenter1FBugCatcherText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/PewterPokecenter2FBeta.asm (0 text labels)
+RAW QUOTED DB/NEXT DATA:
+
+## maps/PewterSnoozeSpeechHouse.asm (1 text labels)
+PewterSnoozeSpeechHouseGrampsText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/IndigoPlateauPokecenter1F.asm (9 text labels)
+IndigoPlateauPokecenter1FCooltrainerMText
+PlateauRivalText1
+PlateauRivalWinText
+PlateauRivalText2
+PlateauRivalLoseText
+TeleportGuyText1
+TeleportGuyYesText
+TeleportGuyNoText
+AbraText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/WillsRoom.asm (3 text labels)
+WillScript_WillBeforeText
+WillScript_WillBeatenText
+WillScript_WillDefeatText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/KogasRoom.asm (3 text labels)
+KogaScript_KogaBeforeText
+KogaScript_KogaBeatenText
+KogaScript_KogaDefeatText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/BrunosRoom.asm (3 text labels)
+BrunoScript_BrunoBeforeText
+BrunoScript_BrunoBeatenText
+BrunoScript_BrunoDefeatText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/KarensRoom.asm (3 text labels)
+KarenScript_KarenBeforeText
+KarenScript_KarenBeatenText
+KarenScript_KarenDefeatText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/LancesRoom.asm (8 text labels)
+LanceBattleIntroText
+LanceBattleWinText
+LanceBattleAfterText
+LancesRoomMaryOhNoOakText
+LancesRoomOakCongratulationsText
+LancesRoomMaryInterviewText
+LancesRoomNoisyText
+LancesRoomMaryNoInterviewText
+RAW QUOTED DB/NEXT DATA:
+
+## maps/HallOfFame.asm (1 text labels)
+HallOfFame_LanceText
+RAW QUOTED DB/NEXT DATA:
+
