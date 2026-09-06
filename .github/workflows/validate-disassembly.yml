@@ -1,0 +1,58 @@
+name: Validate disassembly structure
+
+on:
+  push:
+    branches: [ complete-disassembly ]
+    paths:
+      - 'maps/**'
+      - 'data/maps/**'
+      - 'tools/recovery/**'
+      - 'layout.link'
+      - 'wip.asm'
+      - '.github/workflows/validate-disassembly.yml'
+
+permissions:
+  contents: read
+
+env:
+  rgbds_version: v1.0.3
+
+jobs:
+  gold-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout rgbds
+        uses: actions/checkout@v4
+        with:
+          repository: gbdev/rgbds
+          ref: ${{ env.rgbds_version }}
+          path: rgbds
+
+      - name: Install rgbds
+        working-directory: rgbds
+        run: |
+          sudo apt-get update
+          sudo apt-get install -yq bison libpng-dev pkg-config
+          sudo make -j$(nproc) install
+
+      - name: Remove rgbds source
+        run: rm -rf rgbds
+
+      - name: Create dummy baseroms
+        run: |
+          truncate -s 2097152 baserom_g.bin
+          truncate -s 2097152 baserom_s.bin
+
+      - name: Build Gold structure
+        run: make gold -j$(nproc)
+
+      - name: Show recovered map-script placement
+        if: always()
+        shell: bash
+        run: |
+          if [ -f pokegold.map ]; then
+            grep -A8 -B2 'Map Scripts 19\|Map Scripts 20\|Map Scripts 21\|Map Scripts 22' pokegold.map || true
+          fi
