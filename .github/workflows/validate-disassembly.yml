@@ -23,6 +23,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Ensure LFS assets are materialized
+        run: git lfs pull
 
       - name: Checkout rgbds
         uses: actions/checkout@v4
