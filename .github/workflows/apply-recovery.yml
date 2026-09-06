@@ -20,6 +20,20 @@ jobs:
           ref: complete-disassembly
           fetch-depth: 0
 
+      - name: Normalize recovery patchers
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('tools/recovery/finish_bank56.py')
+          if p.exists():
+              s = p.read_text(encoding='utf-8')
+              old = 'pat=re.compile(r"(?ms)^("+re.escape(label)+r":\\n)(.*?^\\tdone\\n?)")'
+              new = 'pat=re.compile(r"(?ms)^("+re.escape(label)+r":[^\\n]*\\n)(.*?^\\tdone\\n?)")'
+              if old in s:
+                  p.write_text(s.replace(old, new), encoding='utf-8')
+          PY
+
       - name: Apply recovery scripts
         shell: bash
         run: |
