@@ -51,6 +51,30 @@ jobs:
           truncate -s 2097152 baserom_g.bin
           truncate -s 2097152 baserom_s.bin
 
+      - name: Stage Map Scripts 23 for structure test
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          p = Path('data/maps/scripts.asm')
+          s = p.read_text()
+          needle = '/*\nSECTION "Map Scripts 23", ROMX'
+          if needle in s:
+              s = s.replace(needle, 'SECTION "Map Scripts 23", ROMX', 1)
+              marker = '\n\nSECTION "Map Scripts 24", ROMX'
+              if marker not in s:
+                  raise SystemExit('Map Scripts 24 marker not found')
+              s = s.replace(marker, '\n\n/*\nSECTION "Map Scripts 24", ROMX', 1)
+              p.write_text(s)
+
+          p = Path('layout.link')
+          s = p.read_text()
+          old = '; ROMX $59\n; \t"Map Scripts 23"'
+          if old in s:
+              s = s.replace(old, 'ROMX $59\n\t"Map Scripts 23"', 1)
+              p.write_text(s)
+          PY
+
       - name: Build Gold structure
         shell: bash
         run: |
@@ -68,5 +92,5 @@ jobs:
         shell: bash
         run: |
           if [ -f pokegold.map ]; then
-            grep -A8 -B2 'Map Scripts 19\|Map Scripts 20\|Map Scripts 21\|Map Scripts 22' pokegold.map || true
+            grep -A8 -B2 'Map Scripts 19\|Map Scripts 20\|Map Scripts 21\|Map Scripts 22\|Map Scripts 23' pokegold.map || true
           fi
