@@ -313,22 +313,29 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 
 KurtsHouseKurtMakingBallsMustWaitText:
 	text "엇 넌 누구냐?"
+
 	para "그런가 <PLAYER>(이)라고 하는가"
 	line "볼을 만들어줬으면 좋겠는가"
 	cont "미안하지만 그럴 때가 아니다"
+
 	para "로켓단을 알고 있냐?"
 	line "뭐 몰라도 좋아"
 	cont "이야기를 계속하겠다"
+
 	para "로켓단이라고 하는 것은"
 	line "포켓몬을 강제로 나쁜 짓에 사용한"
 	cont "아무 쓸모 없는 녀석들이지"
+
 	para "3년전에"
 	line "해산했을 텐데……"
+
 	para "어쨌든 그녀석들이"
 	line "우물에서 야돈의 꼬리를"
 	cont "잘라서 팔아먹고 있단다"
+
 	para "그래서 내가 가서"
 	line "확실히 야단치려고 한다!"
+
 	para "좋아! 기다려라 야돈!"
 	line "사나이 강집이 구하러 간다!"
 	done
@@ -337,9 +344,11 @@ KurtsHouseKurtHonoredToMakeBallsText:
 	text "강집『오오 <PLAYER>"
 	line "우물에서 네가 한 일"
 	cont "그것은 아주 훌륭했단다!"
+
 	para "나는 네가 마음에 들었다!"
 	line "너 같은 트레이너가 쓰겠다면"
 	cont "볼을 만들어 주고싶구나"
+
 	para "지금 손에 있는 것은"
 	line "이것뿐이지만 아무튼 가지고 가라!"
 	done
@@ -347,6 +356,7 @@ KurtsHouseKurtHonoredToMakeBallsText:
 KurtsHouseKurtBallsFromApricornsText:
 	text "강집『나는 규토리를 사용해서"
 	line "특수한 볼을 만든단다"
+
 	para "그 근처의 규토리 나무를 조사해서"
 	line "열매를 모아오면 좋을꺼다"
 	cont "그러면 내가 볼을 만들어주겠다"
@@ -355,6 +365,7 @@ KurtsHouseKurtBallsFromApricornsText:
 KurtsHouseKurtAskYouHaveAnApricornText:
 	text "강집『오옷"
 	line "규토리를 가지고 있구나!"
+
 	para "좋아 볼을 만들어주겠다!"
 	done
 
@@ -382,6 +393,7 @@ KurtsHouseKurtJustFinishedYourBallText:
 
 KurtsHouseKurtTurnedOutGreatText:
 	text "강집『마음에 드느냐!"
+
 	para "그것으로 잡을 수 있을까 없을까"
 	line "포켓몬과 승부를 해보거라!"
 	done
@@ -407,6 +419,7 @@ KurtsGranddaughterDadText:
 	text "아빠는 실프주식회사 라는 회사에서"
 	line "새로운 몬스터볼의"
 	cont "연구를 하고계셔"
+
 	para "그 기간동안 나는"
 	line "할아버지랑 야돈이랑 집을 지켜"
 	done
