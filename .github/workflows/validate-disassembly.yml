@@ -52,7 +52,16 @@ jobs:
           truncate -s 2097152 baserom_s.bin
 
       - name: Build Gold structure
-        run: make gold -j$(nproc)
+        shell: bash
+        run: |
+          set +e
+          make gold -j$(nproc) > build.log 2>&1
+          status=$?
+          echo '--- first/last relevant build errors ---'
+          grep -inE 'error|fatal|rgbasm|rgblink|make: \*\*\*|assert|overflow|overlap' build.log | tail -n 100 || true
+          echo '--- build tail ---'
+          tail -n 120 build.log || true
+          exit "$status"
 
       - name: Show recovered map-script placement
         if: always()
