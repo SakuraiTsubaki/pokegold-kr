@@ -298,7 +298,6 @@ INCLUDE "maps/Route36RuinsOfAlphGate.asm"
 INCLUDE "maps/Route36NationalParkGate.asm"
 
 
-/*
 SECTION "Map Scripts 22", ROMX
 
 INCLUDE "maps/GoldenrodGym.asm"
@@ -323,6 +322,7 @@ INCLUDE "maps/Route34IlexForestGate.asm"
 INCLUDE "maps/DayCare.asm"
 
 
+/*
 SECTION "Map Scripts 23", ROMX
 
 INCLUDE "maps/VermilionFishingSpeechHouse.asm"
