@@ -34,7 +34,10 @@ VioletGymFalknerScript:
 	iftrue .SpeechAfterTM
 	setevent EVENT_BEAT_BIRD_KEEPER_ROD
 	setevent EVENT_BEAT_BIRD_KEEPER_ABE
-	setmapscene ELMS_LAB, SCENE_ELMSLAB_NOOP
+	; SCENE_ELMSLAB_NOOP is scene 2. The ElmsLab map-script section is still
+	; inactive during staged recovery, so keep the exact scene byte explicit
+	; until that section is restored and the symbolic constant exists again.
+	setmapscene ELMS_LAB, 2
 	specialphonecall SPECIALCALL_ASSISTANT
 	writetext FalknerZephyrBadgeText
 	promptbutton
