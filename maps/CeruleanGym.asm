@@ -216,7 +216,6 @@ CeruleanGymGruntByeText:
 	line "이 일에대해 포겟 해야해!"
 	cont "유는 아무것도 못 봤다"
 	cont "듣지도 않고 모르는거다!"
-
 	para "바이 키드!"
 	line "롱 굿바이!"
 	done
@@ -235,21 +234,17 @@ CeruleanGymNote2Text:
 MistyIntroText:
 	text "이슬『왔구나!"
 	line "방해꾼 나으리!"
-
 	para "성도의 체육관 배지를"
 	line "많이 가지고 있어 보이지만"
 	cont "나를 얕보다간 큰 코 다칠껄"
-
 	para "내 물타입의 포켓몬은"
 	line "무척 강하다구!"
 	done
 
 MistyWinLossText:
 	text "이슬『꽤 하는군……"
-
 	para "너의 실력"
 	line "마음을 비우고 받아들이지……"
-
 	para "자 이거"
 	line "블루배지야!"
 	done
@@ -263,7 +258,6 @@ MistyFightDoneText:
 	text "이슬『강한 트레이너가"
 	line "성도에는 많이 있니?"
 	cont "너처럼"
-
 	para "나도 언젠가 여행을 떠나서"
 	line "강한 트레이너랑 싸울꺼야!"
 	done
@@ -300,7 +294,6 @@ SwimmerfBrianaAfterBattleText:
 
 SwimmermParkerSeenText:
 	text "어푸!"
-
 	para "먼저 내가 상대다!"
 	line "덤벼라!"
 	done
@@ -319,7 +312,6 @@ SwimmermParkerAfterBattleText:
 CeruleanGymGuideText:
 	text "야아-!"
 	line "미래의 챔피언!"
-
 	para "이슬이가 없어서"
 	line "우리들도 놀러 갔었단다"
 	cont "와하하하핫!"

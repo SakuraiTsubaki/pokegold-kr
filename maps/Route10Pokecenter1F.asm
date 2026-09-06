@@ -42,7 +42,6 @@ Route10Pokecenter1FGentlemanText:
 Route10Pokecenter1FGymGuideText:
 	text "발전소의 소장이"
 	line "강한 트레이너를 찾고 있어"
-
 	para "도둑에게 도둑맞은 물건을"
 	line "찾아와 주길 바라는 것 같아"
 	done
@@ -51,7 +50,6 @@ Route10Pokecenter1FGymGuideText_ReturnedMachinePart:
 	text "그러고보니 로켓단이"
 	line "성도에서 부활했다고 하더군"
 	cont "이미 망해버린 것 같지만"
-
 	para "전혀 몰랐었어!"
 	done
 

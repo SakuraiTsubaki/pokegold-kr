@@ -33,7 +33,6 @@ CeruleanTradeSpeechHouseZubatScript:
 
 CeruleanTradeSpeechHouseGrannyText:
 	text "우리 영감은"
-
 	para "여러 사람들과 교환한"
 	line "포켓몬들과"
 	cont "행복하게 지내고 있단다"

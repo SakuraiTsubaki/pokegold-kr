@@ -27,7 +27,6 @@ CeruleanPokecenter1FGymGuideText:
 	text "리니어 기차는 시속 550km!"
 	line "관동과 성도를"
 	cont "눈 깜짝할 사이에 왕복한다!"
-
 	para "이것으로 성도에서도"
 	line "살기 쉽게 되었지!"
 	done

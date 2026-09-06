@@ -212,7 +212,6 @@ PowerPlantOfficer1AThiefBrokeInText:
 PowerPlantOfficer1CeruleanShadyCharacterText:
 	text "블루시티로부터"
 	line "연락이 있었습니다!"
-
 	para "괴상한 남자가 길 한복판에서"
 	line "어슬렁 거린다는 것이었습니다!"
 	done
@@ -230,7 +229,6 @@ PowerPlantOfficer1HaveToBeefUpSecurityText:
 PowerPlantGymGuide1SomeoneStoleAPartText:
 	text "발전기의 부품이"
 	line "어떤자에의해 도둑맞았다!"
-
 	para "부품이 없으면 신형의"
 	line "발전기를 움직이게 할 수 없단다!"
 	done
@@ -243,7 +241,6 @@ PowerPlantGymGuide1GeneratorUpAndRunningText:
 PowerPlantGymGuide2PowerPlantUpAndRunningText:
 	text "이곳은 이전에 무인"
 	line "발전소였단다"
-
 	para "그러나 리니어 기차의"
 	line "전력을 만들기위해"
 	cont "다시 만들어진 것이다"
@@ -269,7 +266,6 @@ PowerPlantOfficer2ManagerHasBeenCheerfulText:
 PowerPlantGymGuide4MagnetTrainConsumesElectricityText:
 	text "리니어 기차는 많은 전기를"
 	line "사용하는 교통수단이니까"
-
 	para "신형 발전기가 움직이지 않으면"
 	line "리니어 기차는 멈춘채로 끝이란다"
 	done
@@ -281,10 +277,8 @@ PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
 
 PowerPlantManagerWhoWouldRuinMyGeneratorText:
 	text "소장『요 요 용서 못해!"
-
 	para "내가 많은 시간을 투자한"
 	line "발전기를 고장내다니!"
-
 	para "붙잡히기만 하면"
 	line "필살의 전자포로"
 	cont "박살낼꺼야!!"
@@ -298,7 +292,6 @@ PowerPlantManagerIWontForgiveCulpritText:
 
 PowerPlantManagerThatsThePartText:
 	text "소장『오 오 오 오옷!!"
-
 	para "그것은 나의 귀여운"
 	line "발전기의 부품이 아닌가!"
 	cont "자네가 찾아주었는가!"
@@ -315,7 +308,6 @@ PowerPlantManagerTM07IsZapCannonText:
 	text "소장『기술머신07은"
 	line "나의 필살 전자포!"
 	cont "강력한 기술이란다!"
-
 	para "약간 명중률은 떨어지지만……"
 	line "위력은 대단하단다!"
 	done

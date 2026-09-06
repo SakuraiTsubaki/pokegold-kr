@@ -258,7 +258,6 @@ INCLUDE "maps/LakeOfRageMagikarpHouse.asm"
 INCLUDE "maps/Route43MahoganyGate.asm"
 INCLUDE "maps/Route43Gate.asm"
 
-/*
 SECTION "Map Scripts 19", ROMX
 
 INCLUDE "maps/CeruleanGymBadgeSpeechHouse.asm"
@@ -274,6 +273,7 @@ INCLUDE "maps/PowerPlant.asm"
 INCLUDE "maps/BillsHouse.asm"
 
 
+/*
 SECTION "Map Scripts 20", ROMX
 
 INCLUDE "maps/AzaleaPokecenter1F.asm"

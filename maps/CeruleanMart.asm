@@ -23,7 +23,6 @@ CeruleanMart_CooltrainerF:
 CeruleanMart_CooltrainerMText:
 	text "블루시티의 호수공원으로 가는 도중"
 	line "많은 트레이너가 있단다"
-
 	para "걸려들면 트레이너의"
 	line "실력을 확인하고 있으니까"
 	done

@@ -25,7 +25,6 @@ CeruleanDiglett:
 CeruleanPoliceStationFishingGuruText:
 	text "수상한 녀석이"
 	line "어슬렁거리고 있다는 이야기다!"
-
 	para "도둑놈이라면"
 	line "내가 용서하지 않겠어!"
 	done
