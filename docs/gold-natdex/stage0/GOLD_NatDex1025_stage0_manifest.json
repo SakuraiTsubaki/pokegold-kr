@@ -1,0 +1,58 @@
+{
+  "project": "GOLD KR National Dex 1025",
+  "stage": 0,
+  "stage_name": "extended-species engine foundation",
+  "source_rom": "Pocket Monsters Geum (Korea).gbc",
+  "source_sha1": "c0ff3999e1093e1af59ef3eea3f1bfd7c1f18a65",
+  "source_size": 2097152,
+  "output_rom": "Pocket_Monsters_Geum_KR_NatDex1025_stage0.gbc",
+  "output_sha1": "19419f059865ecba9ac29d903615a071f6b90c6f",
+  "output_size": 2097152,
+  "mapper_header": "unchanged (MBC3+RTC/RAM/battery, 2 MiB)",
+  "legacy_species_direct_ids": "0x01..0xFB (#001..#251)",
+  "extended_species_sentinel": "0xFC",
+  "egg_sentinel": "0xFD (unchanged)",
+  "extended_id_storage": {
+    "boxmon_offset_low": 29,
+    "boxmon_offset_high": 30,
+    "encoding": "little-endian National Dex ID"
+  },
+  "extended_range": {
+    "first": 252,
+    "last": 1025,
+    "count": 774
+  },
+  "native_base_record_size": 32,
+  "original_base_data_offset": "0x051BDF",
+  "extension_directory": {
+    "bank": "0x6A",
+    "file_offset": "0x1A8000",
+    "banked_address": "0x4000"
+  },
+  "reserved_empty_banks": [
+    "0x6A",
+    "0x73",
+    "0x74",
+    "0x75",
+    "0x76",
+    "0x77",
+    "0x7C",
+    "0x7D",
+    "0x7E"
+  ],
+  "base_data_plan": {
+    "#252-#763": {
+      "bank": "0x73",
+      "records": 512,
+      "bytes": 16384
+    },
+    "#764-#1025": {
+      "bank": "0x74",
+      "records": 262,
+      "bytes": 8384
+    }
+  },
+  "runtime_hooks_installed": false,
+  "parameter_payload_installed": false,
+  "notes": "Stage 0 only establishes collision-free storage/indexing and bank allocation. It intentionally does not claim #252-#1025 are playable yet. This is an archived prototype; current architecture is native 16-bit Species/Variety/Form."
+}
