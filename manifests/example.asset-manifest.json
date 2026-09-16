@@ -1,8 +1,0 @@
-{
-  "id": "example-korean-asset",
-  "target": {"game": "Pocket Monsters Gold", "region": "Korea", "language": "ko", "revision": "TBD"},
-  "source": {"locator": "TBD", "sha256": null},
-  "output": {"path": "assets/TBD", "sha256": null},
-  "generation": {"tool": "TBD", "command": "TBD"},
-  "verification": {"level": "hypothesis", "notes": "Replace TBD fields with verified data when the artifact is created."}
-}
