@@ -1,0 +1,43 @@
+name: Vendor pinned RGBDS
+on:
+  push:
+    branches: [complete-disassembly]
+    paths: [.github/workflows/vendor-rgbds.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  vendor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: complete-disassembly
+      - name: Vendor RGBDS v1.0.3
+        shell: bash
+        run: |
+          set -euxo pipefail
+          url='https://github.com/gbdev/rgbds/releases/download/v1.0.3/rgbds-linux-x86_64.tar.xz'; expected='280a52061a0c516999bee75ac357628d6d50784309e0486cef25f7460e6f330b'
+          curl -fL --retry 3 -o /tmp/rgbds.tar.xz "$url"; echo "$expected  /tmp/rgbds.tar.xz" | sha256sum -c -
+          rm -rf tools/vendor/rgbds; mkdir -p tools/vendor/rgbds/bin
+          tar -xJf /tmp/rgbds.tar.xz -C tools/vendor/rgbds/bin rgbasm rgblink rgbfix rgbgfx; chmod +x tools/vendor/rgbds/bin/*
+          curl -fL --retry 3 -o tools/vendor/rgbds/LICENSE https://raw.githubusercontent.com/gbdev/rgbds/v1.0.3/LICENSE
+          printf '1.0.3\n' > tools/vendor/rgbds/VERSION; printf '%s  upstream-rgbds-linux-x86_64.tar.xz\n' "$expected" > tools/vendor/rgbds/UPSTREAM_SHA256
+          cat > tools/activate_vendored_toolchain.sh <<'EOF'
+          #!/usr/bin/env bash
+          set -euo pipefail
+          ROOT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+          export PATH="$ROOT_DIR/tools/vendor/rgbds/bin:$PATH"
+          echo "repo RGBDS: $(rgbasm --version | head -n1)"
+          EOF
+          chmod +x tools/activate_vendored_toolchain.sh
+          printf '%s\n' '# Vendored RGBDS' 'Linux x86_64 RGBDS 1.0.3 is stored in this repository. No ROM data is included.' 'Activate with `source tools/activate_vendored_toolchain.sh`.' > tools/vendor/rgbds/README.md
+          tools/vendor/rgbds/bin/rgbasm --version
+      - name: Commit vendored toolchain
+        run: |
+          set -euxo pipefail
+          git config user.name 'github-actions[bot]'; git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f tools/vendor/rgbds tools/activate_vendored_toolchain.sh
+          git diff --cached --quiet && exit 0
+          git commit -m 'Vendor pinned RGBDS toolchain'; git push origin HEAD:complete-disassembly
