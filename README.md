@@ -1,1 +1,0 @@
-# pokegold-kr
